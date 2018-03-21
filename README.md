@@ -5,4 +5,4 @@
 # How to install this app
 1. Clone this repository into directory on your storage unit.
 2. Open terminal or prompt on cloned directory.
-3. Run ```sh npm i```.
+3. Run ```npm i```.
