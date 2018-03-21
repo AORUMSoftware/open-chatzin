@@ -1,8 +1,21 @@
-# Requirements
-- NodeJS 9.8.0 or greater.
-- Npm 5.7.1 or greater.
+# open-chatzin
 
-# How to install this app
-1. Clone this repository into directory on your storage unit.
-2. Open terminal or prompt on cloned directory.
-3. Run ```npm i```.
+> A Vue.js project
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
