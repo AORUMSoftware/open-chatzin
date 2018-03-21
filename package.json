@@ -1,0 +1,19 @@
+{
+  "name": "chatzin",
+  "version": "0.0.1",
+  "description": "Simple ChatZin!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"My Script example\""
+  },
+  "keywords": [],
+  "authors": [
+    "João Regis",
+    "Vinícius Moreira"
+  ],
+  "license": "GNU",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.0.4"
+  }
+}
