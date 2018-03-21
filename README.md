@@ -1,5 +1,5 @@
 # Requirements
-- NodeJS 9.8.0 or greater
+- NodeJS 9.8.0 or greater.
 - Npm 5.7.1 or greater.
 
 # How to install this app
