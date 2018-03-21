@@ -2,14 +2,21 @@
   "name": "open-chatzin",
   "version": "1.0.0",
   "description": "A simple ChatZin!",
-  "authors": ["Joao Regis <joao.reegiis@gmail.com>", "Vinicius Moreira <vinicius741@gmail.com>"],
+  "authors": [
+    "Joao Regis <joao.reegiis@gmail.com>",
+    "Vinicius Moreira <vinicius741@gmail.com>"
+  ],
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "npm run dev",
+    "start": "npm run build && node ./bin/www",
     "build": "node build/build.js"
   },
   "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "serve-favicon": "^2.4.5",
+    "socket.io": "^2.0.4",
     "vue": "^2.5.2"
   },
   "devDependencies": {
